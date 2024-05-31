@@ -1,16 +1,8 @@
-# journal_app
+# JOURNAL APPLICATION
 
-A new Flutter project.
+## PERSISTING DATA
 
-## Getting Started
+Persisting data is a two process:
+1. Use a file class to save and read data
+2. Parse data to and from a JSON(JavaScript Object Notation) format
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
