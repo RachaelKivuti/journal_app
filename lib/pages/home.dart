@@ -13,13 +13,13 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Journal', 
+          'Journal',
           style: TextStyle(
             color: Colors.white,
             fontFamily: 'open sans',
           ),
         ),
-        backgroundColor: Colors.greenAccent,
+        backgroundColor: Colors.green,
         centerTitle: true,
       ),
     );
