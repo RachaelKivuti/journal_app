@@ -22,6 +22,28 @@ class _HomeState extends State<Home> {
         backgroundColor: Colors.green,
         centerTitle: true,
       ),
+      // body: FutureBuilder(
+      //   initialData: const [],
+      //   future: _loadJournals(),
+      //   builder: (BuildContext context, AsyncSnapshot snapshot) {
+      //     return !snapshot.hasData
+      //         ? const Center(child: CircularProgressIndicator())
+      //         : _buildListViewSeparated(Snapshot);
+      //   },
+      // ),
+      bottomNavigationBar: const BottomAppBar(
+        shape: CircularNotchedRectangle(),
+        child: Padding(padding: EdgeInsets.all(24.0)),
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.green,
+        tooltip: 'Add Journal Entry',
+        child: const Icon(Icons.add),
+        onPressed: () {
+          //_addOrEditJournal(add: true, index: -1, journal: Journal());
+        },
+      ),
     );
   }
 }
